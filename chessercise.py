@@ -18,7 +18,6 @@ class Chess:
 
 
 class Knight(Chess):
-
     def findPossiblePosition(self, piece, position):
         (col, row) = self.setPosition(piece, position)
         all_position = []
@@ -59,7 +58,6 @@ class Knight(Chess):
 
 
 class Rook(Chess):
-
     def findPossiblePosition(self,piece, position):
         (col, row) = self.setPosition(piece,position)
         all_position = []
